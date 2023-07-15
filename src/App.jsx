@@ -14,6 +14,7 @@ import {AuthContext} from "../src/context/authContext/AuthContext"
 import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const App = () => {
   const {user} = useContext(AuthContext);
   return <Router>
